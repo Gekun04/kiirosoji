@@ -686,18 +686,18 @@ nav .checkbox i {
     }
     .gallery{
       
-        width: 100px;
-        height: 200px;
+        width: 150px;
+        height: 250px;
         transform-style: preserve-3d;
         animation: animate 30s linear infinite;
     
     }
     @keyframes animate{
         0%{
-            transform: perspective(1000px) rotateY(0deg);
+            transform: perspective(900px) rotateY(20deg);
         }
         100%{
-            transform: perspective(1000px) rotateY(360deg);
+            transform: perspective(900px) rotateY(360deg);
         }
     }
     
@@ -760,6 +760,7 @@ nav .checkbox i {
         transition: .3s ease 0s;
         color: #4F3939;
     }
+    
     
    
 }
