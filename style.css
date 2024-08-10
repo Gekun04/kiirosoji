@@ -480,8 +480,9 @@ nav .checkbox i {
 .icon ion-icon{
     font-size: 50px;
     transition: .3s ease 0s;
+    color: #4F3939;
 }
-.icon:hover{
+.icon ion-icon:hover{
     color: #FFF9F7;
 }
 .footer{
@@ -553,6 +554,21 @@ nav .checkbox i {
         gap: 1rem;
         
     }
+    .comm_now{
+        cursor: pointer;
+        color: var(--primary-color-text);
+        font-size: 16px;
+        padding: 1rem 5rem;
+        border-radius: 10px;
+        border-style: solid;
+        border-color: var(--primary-color-text);
+        background-color: #9A9EDD;
+        transition: 0.3s ease 0s;
+    }
+    .comm_now:hover{
+    
+        background-color: var(--primary-color);
+    }
     .what-i-do{
         background-image: none;
         background-color: var(--secondary-color);
@@ -596,6 +612,7 @@ nav .checkbox i {
         align-items: center;
         text-align: center;
         background-size: cover;
+        overflow: hidden;
        
     }
 
@@ -641,7 +658,7 @@ nav .checkbox i {
 
 
     .portfolio{
-        height: 100vh;
+        height: 140vh;
         text-align: center;
         background: url(images/pbg.png);
         background-position: center;
@@ -683,11 +700,36 @@ nav .checkbox i {
             transform: perspective(1000px) rotateY(360deg);
         }
     }
+    
+    .pfolio-container span img{
+        position: absolute;
+
+        width: 100%;
+        height: 100%;
+        border-radius: 15px;
+        border: 4px double rgb(133, 100, 205);
+    }
+    .portfolio button{
+        padding: 10px 50px;
+        margin-bottom: 1rem;
+        font-size: 18px;
+        font-weight: 700;
+        color: #4F3939;
+        background-color: #9A9EDD;
+        border-radius: 10px;
+        border: #4F3939;
+        border: solid 2px #4F3939;
+        transition: 0.3s ease 0s;
+    }
+    .portfolio button:hover{
+        cursor: pointer;
+        background-color: #E4DE41;
+    }
         
     .socials{
     
         background-color: #E4DE41;
-        align-items: center;
+        
         text-align: center;
         position: inherit;
        
@@ -701,9 +743,9 @@ nav .checkbox i {
     .connect{
         font-size: 1rem;
   
-        justify-content: left;
+        justify-content: center;
         align-items: center;
-        padding: 20px 15px;
+        padding: 10px 15px;
         }
     
     .socials_icon{
@@ -711,126 +753,13 @@ nav .checkbox i {
         display: flex;
         justify-content: left;
         align-items: center;
-        gap: 10px; /* Add some gap between images */ 
+        gap: 2px; /* Add some gap between images */ 
     }
     .icon ion-icon{
         font-size: 20px;
         transition: .3s ease 0s;
+        color: #4F3939;
     }
     
-    
-
-    
-
-
    
 }
-/* .mystyle{
-    
-}
-.my-style{
-    height: 120vh;
-    background: linear-gradient(to right, #F1ECEA, #FBF5F3, #FFF9F7  );
-    padding-bottom: 2rem;
-
-}
-.mystyle_text{
-    font-size: 3rem;
-    font-weight: 700;
-    color: var(--primary-color-text);
-    line-height: 3rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
-    text-align: center;
-}
-
-.mystyle_fi img{
-    width: min(18rem, 90%);
-    border-radius: 20px;
-    margin-left: 5rem;
-}
-.mystyle_fi{
-    width: 30%;
-}
-.mystyle_images img{
-    width: min(18rem, 90%);
-}
-.mystyle_images{
-    display: inline-block;
-
-
-}
-.mystyle_container{
-    width: 50%;
-
-    float: right;
-} */
-
-/*
-.section_container{
-    height: 100vh;
-    max-width: var(--max-width);
-    margin: auto;
-    padding: 1rem;
-    padding-left: 5rem;
-    padding-bottom: 8rem;
-    display: grid;
-    gap: 4rem;
-}
-    */
-/* .intro{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.hello{
-    font-size: 6rem;
-    font-weight: 700;
-    line-height: 7rem;
-    color: var(--primary-color-text);
-    margin-bottom: 0.8rem;
-    margin-top: 7rem;
-}
-.description {
-    line-height: 1.5rem;
-    font-size: 1.2rem;
-    color: var(--primary-color-text);
-    
-} */
-/*
-.lemonimage{
-    display: grid;
-    place-items: center;
-    position: absolute;
-    float: right;
-    margin-top: 4rem;
-    margin-left: 30%;
-}
-.lemonimage img{
-    width: min(30rem, 90%);
-    
-}
-    */
-/* 
-.action button {
-    font-size: 1rem;
-    font-weight: 500;
-    letter-spacing: 2px;
-    margin-top: 0;
-    padding: 1rem 7rem;
-    outline: #4F3939 ;
-    border: 2px solid;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-.comm_now{
-    
-    color: #4F3939;
-    border: 2px solid;
-    border-color: #4F3939;
-}
-.comm_now:hover{
-    background-color: #9A9EDD;
-    color: #4F3939;
-} */
